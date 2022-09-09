@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://unpkg.com/tailwindcss@1.8.10/dist/tailwind.min.css" rel="stylesheet" />
+    <title>Meals</title>
+</head>
+<body>
+   <!-- NAVBAR STARTS  -->
+    <nav class="relative container py-6 px-12 drop-shadow"> 
+        <div class="flex item-center justify-between">
+            <div class="font-bold flex"><img src="image/OBJECTS.svg" alt="">
+                Meals
+            </div>
+            <div class="hidden space-x-10 md:flex">
+                <a href="#" class="text-red-600 underline decoration-1">Home</a>
+                <a href="#" class="hover:text-brightRedLight" >Menu</a>
+                <a href="#" class="hover:text-brightRedLight">Meal Plans</a>
+            </div>
+            <div class="hidden md:flex space-x-5">
+                <a href="#" target="_blank"><img src="image/search.png" /></a>
+                <a href="#" target="_blank"><img src="image/cart.png" /></a>
+            </div>
+            <div class="hidden md:flex space-x-3">
+                <a href="#" class="hover:text-brightRedLight space-x-16">Sign in</a>
+            </div>
+            <div class="hidden md:flex space-x-2">
+                <a href="" class="hidden p-3 px-4 pt-2 text-white bg-brightRed rounded-full baseline hover:text-brightRedLight md:block">Create Account</a>
+            </div>
+        </div>
+    </nav>
+    <!-- NAVBAR ENDS -->
+    <!-- HERO SECTION STARTS -->
+        <section id="hero">
+            <div class="container flex flex-col-reverse items-center px-6 mx-auto space-y-0 md:space-y-0 md:flex-row bg-gray-50 drop-shadow">
+                <div class="flex flex-col mb-32 space-y-12 md:w-1/2">
+                    <h1 class="max-w-md text-4xl font-bold text-center md:text-5xl md:text-5xl md:textleft">
+                        Delicious meals at your convinience.
+                    </h1>
+
+                    <p class="max-w-sm p-6 text-center text-dark md:text-left">
+                        Order your meals from us and we will have it delivered at your doorstep.
+                    </p>
+
+                    <div class="flex p-6 justify-center md:justify-start">
+                        <a href="#" class="p-3 px-8 pt-2 text-white bg-brightRed rounded-full baseline hover:text-brightRedLight"> Get Started </a> 
+                    </div>  
+                </div>
+
+                <div class="md:w-1/2">
+                        <img class="object-scale-down h-63 w-85" src="image/Hero food Jollof.png" alt="">
+                </div>
+            </div>
+        </section>
+    <!-- HERO SECTION ENDS -->
+    <!-- FEATURES SECTION STARTS -->
+            <div class="bg-gray-100 container px-6 mx-auto space-y-0 md:space-y-0 md:flex-row">
+                <div class="p-9" >
+                   <p class="text-red-600 text-1.5xl">MENU</p>
+                </div>
+                <div class="flex p-8 pt-1">
+                    <h1 class="text-4xl font-bold sm:flex">Current menu</h1>
+                    <div class="flex-auto justify-end">
+                        <div class="space-x-3 border-stone-900 p-2 px-2 pt-2 float-right border border-black-600 inline-block rounded-lg drop-shadow">
+                        <a href="#" class="p-3 px-4 py-2 pt-1 text-white bg-red-600 rounded-lg baseline hover:text-red-500">All</a>
+                        <a href="#" class="text-dark" >Rice</a>
+                        <a href="#" class="text-dark">Beans</a>
+                        <a href="#" class="text-dark">Fries</a>
+                        <a href="#" class="text-dark">Swallow</a>
+                        <a href="#" class="text-dark">Others</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="container flex justify-around box-border flex-wrap mt-10 py-8">
+                    <div class="border border-black-600 inline-block rounded-lg drop-shadow"> 
+                        <img src="./image/food jollof.png" alt="">
+                        <h3 class="my-3 font-bold pl-6">Jollof Rice and Chicken</h3>
+                        <p class="pl-6">Fried Potato/Yam chips with egg sauce or<br> any of your choice</p>
+                        <p class="font-bold my-3 pl-6"> ₦1,500 </p>
+                    </div>
+                    <div class="border border-black-600 inline-block rounded-lg drop-shadow"> 
+                        <img src="./image/food semo.png" alt="">
+                        <h3 class="my-3 font-bold pl-6">Swallow with Draw soup</h3>
+                        <p class="pl-6">Fried Potato/Yam chips with egg sauce or <br>any of your choice</p>
+                        <p class="font-bold my-3 pl-6"> ₦1,000 </p>
+                    </div>
+                    <div class="border border-black-600 inline-block rounded-lg drop-shadow">
+                        <img src="./image/food chips.png" alt="">
+                        <h3 class="my-3 font-bold pl-6">Fries with Egg sauce</h3>
+                        <p class="pl-6">Fried Potato/Yam chips with egg sauce or <br> any of your choice</p>
+                        <p class="font-bold my-3 pl-6"> ₦1,500 </p>
+                    </div>
+                    <div class="border border-black-600 inline-block rounded-lg mt-10 drop-shadow">
+                        <img src="./image/food eba.png" alt="">
+                        <h3 class="my-3 font-bold pl-6">Swallow with Egusi Soup</h3>
+                        <p class="pl-6">Nicely cooked egusi soup and Eba</p>
+                        <p class="font-bold my-3 pl-6"> ₦1,000 </p>
+                    </div>
+                    <div class="border border-black-600 inline-block rounded-lg mt-10 drop-shadow">
+                        <img src="./image/food beans.png" alt="">
+                        <h3 class="my-3 font-bold pl-6">Beans</h3>
+                        <p class="pl-6">Fried Potato/Yam chips with egg sauce or <br> any of your choice</p>
+                        <p class="font-bold my-3 pl-6"> ₦700 </p>
+                    </div>
+                    <div class="border border-black-600 inline-block rounded-lg mt-10 drop-shadow">
+                        <img src="./image/food fried.png" alt="">
+                        <h3 class="my-3 font-bold pl-6">Fried Rice</h3>
+                        <p class="pl-6">Fried Potato/Yam chips with egg sauce or <br>any of your choice</p>
+                        <p class="font-bold my-3 pl-6"> ₦600 </p>
+                    </div>
+                </div>
+                <div class="flex p-6 justify-center">
+                    <a href="#" class="p-3 px-8 pt-2 my-10 text-white bg-red-800 rounded-full baseline hover:text-brightRedLight"> Full Menu </a> 
+                </div>  
+            </div>
+    <!-- FEATURES SECTION ENDS -->
+    <!-- ABOUT US SECTION STARTS -->
+            <div class="bg-pink container md:container md:mx-auto px-6 sm:flex-col md:flex-col">
+                <div class="items-center flex">
+                    <div class="m-6 mr-3 p-9">
+                        <h1 class="text-3xl w-64 my-3 font-sans font-medium">What our customers say about us</h1>
+                        <p class="w-64">At vero eos et accusamus et iusto odio dignissimos ducimus qui bladitiis praesentium voluptatum.</p>
+                    </div>
+                    <img class="scale-75 sm:flex-col" src="image/Card.png" alt="">
+                </div>
+            </div>
+    <!-- ABOUT US SECTION ENDS -->
+    <!-- BLOG SECTION STARTS -->
+            <div bg-gray-100 container px-6 mx-auto space-y-0 md:space-y-0 md:flex-row>
+                <div class="">
+                    <h1 class="text-2xl font-bold mt-16 text-center">Blog Our Latest News</h1>
+                    <p class="text-center mt-3">Have you ever browsed food blogs like mine and wondered <br> how to start a food blog of your very own? </p>
+                </div>
+                <div class="container flex justify-around box-border flex-wrap mt-10 py-8">
+                    <div class="border border-black-600 inline-block rounded-lg drop-shadow m-5"> 
+                        <img src="./image/Rectangle 69.png" alt="">
+                        <h3 class="my-3 font-bold pl-6">Better Than Takeout Kung Pao Chicken</h3>
+                        <p class="pl-6">This spicy, tangy, and sweet better than <br> takeout no peanut kung pao chicken stir fry <br> recipe.</p>
+                        <p class="font-bold my-3 text-red-500 pl-6"> READ MORE </p>
+                    </div>
+                    <div class="border border-black-600 inline-block rounded-lg drop-shadow m-5"> 
+                        <img src="./image/Rectangle 70.png" alt="">
+                        <h3 class="my-3 font-bold pl-6">The Best Sesame Soy Broccoli Salad</h3>
+                        <p class="pl-6">Hello broccoli salad! Broccoli salad with <br> a sweet and tangy dressing is my new go to for <br> summer parties. </p>
+                        <p class="font-bold my-3 text-red-500 pl-6"> READ MORE </p>
+                    </div>
+                    <div class="border border-black-600 inline-block rounded-lg drop-shadow m-5">
+                        <img src="./image/Rectangle 71.png" alt="">
+                        <h3 class="my-3 font-bold pl-6">Better Than Takeout Kung Pao Chicken</h3>
+                        <p class="pl-6">This super easy version of dan dan noodles is <br> fast, flavorful, and vegetarian to boot. It’s <br> definitely. </p>
+                        <p class="font-bold my-3 text-red-500 pl-6"> READ MORE </p>
+                    </div>
+                </div>
+            </div>
+    <!-- BLOG SECTION ENDS -->
+     <!-- FOOTER SECTION STARTS -->
+            <footer class="container bg-darkWhite">
+                    <div class="p-9">
+                        <div class="flex font-bold text-3xl"><img src="image/OBJECTS.svg" alt="">
+                            Meals
+                        </div>
+                        <div class="m-5 p-8">
+                            <h1 class="font-bold">Company</h1>
+                            <p>Blog</p>
+                            <p>About Us</p>
+                            <p>Contact Us</p>
+                        </div>
+                        <div class="m-5 p-8">
+                            <h1 class="font-bold">Services</h1>
+                            <p>FAQs</p>
+                            <p>Our Menu</p>
+                        </div>
+                    </div>
+                    <div>
+                        <hr class="bg-black-100">
+                        <p class="p-6">© 2022 Meals. All rights reserved.</p>
+                    </div>
+            </footer>
+     <!-- FOOTER SECTION ENDS -->
+</body>
+</html>
